@@ -1,0 +1,191 @@
+#title {
+    background-color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  padding: 5% 3%;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat Black', sans-serif;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing h2,h3 {
+  font-family: 'Montserrat Black', sans-serif;
+}
+
+#cta {
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 5% 15%;
+  color: #fff;
+}
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+  background-color:#fff;
+
+}
+
+
+
+.first-h1 {
+  font-size: 3rem;
+  line-height: 2;
+  color:white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+h3{
+  font-size: 2.0rem;
+
+}
+
+p{
+  color: #8f8f8f;
+
+}
+
+.row {
+  position: relative;
+  z-index: 0;
+}
+
+.row h3 {
+  font-family: 'Montserrat Black', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.container-fluid h1 {
+  font-family: 'Montserrat Black', sans-serif;
+}
+
+
+
+button {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin: 5% 3% 3% 0;
+
+}
+
+.iphone-pic {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+
+.navbar-brand {
+  color:#fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: "Ubuntu", sans-serif;
+}
+
+.box-features {
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+.dog-image {
+  margin-bottom: 1rem;
+  border-radius: 100%;
+}
+
+.press-image {
+  width: 9%;
+  margin: 10px 30px 10px;
+}
+
+
+.price-div {
+  text-align: center;
+}
+
+
+.prices-features {
+  padding: 3% 2%;
+}
+
+/* Media Type */
+@media (max-width:1100px) {
+
+.iphone-pic {
+  position: static;
+  transform: rotate(0);
+}
+
+#title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.btn-lg {
+  font-size: 1rem;
+}
+
+.cta-h3 {
+  font-size: 1.5rem;
+}
+}
+/* Media Type */
+
+.icon2 {
+  margin-left: 15px;
+
+}
+
+.footer-p {
+  padding: 3% 3%;
+}
